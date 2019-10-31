@@ -5,6 +5,7 @@ Inputting the three numbers and ordering it;
 
 
 #include <stdio.h>
+#include <stdio.h>
 
 
 int main(void)
@@ -21,6 +22,11 @@ int main(void)
 		b = t;
 	}
 
+	if(a < c)
+		t = a;
+		a = c;
+		c = t;
+
 	if(b < c)
 	{
 		t = b;
@@ -28,8 +34,10 @@ int main(void)
 		c = t;
 	}
 
+
 	printf("%d\n%d\n%d\n",a,b,c);
 
 
 	return 0;
 }
+
