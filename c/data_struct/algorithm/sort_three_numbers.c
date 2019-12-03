@@ -5,7 +5,6 @@ Inputting the three numbers and ordering it;
 
 
 #include <stdio.h>
-#include <stdio.h>
 
 
 int main(void)
