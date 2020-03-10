@@ -20,7 +20,6 @@ int main(void)
 
 
 	printf("Please input the elements:\n");
-
 	for(i = 0;i < len; i++)
 		scanf("%d",&PArr[i]);
 
