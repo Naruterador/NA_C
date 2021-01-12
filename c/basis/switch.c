@@ -1,5 +1,5 @@
 /*
-An example of switch;
+An example of switch/case;
  */
 
 
@@ -25,5 +25,5 @@ int main(void)
 			printf("This build do not have this floor.\n");
 			break;
 	}
-	return 0;
+	return   0;
 }
