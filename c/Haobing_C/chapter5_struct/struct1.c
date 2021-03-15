@@ -22,9 +22,9 @@ int main(void)
     struct student2
     {
     	char name[50];
-		char gender;
-		int age;
-		float grade;
+	char gender;
+	int age;
+	float grade;
     } st2;
 
     //Third approach
