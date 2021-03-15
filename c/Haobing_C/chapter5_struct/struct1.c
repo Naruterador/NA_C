@@ -31,9 +31,9 @@ int main(void)
       struct 
     {
     	char name[50];
-		char gender;
-		int age;
-		float grade;
+	char gender;
+	int age;
+	float grade;
     } st3;
 
 
